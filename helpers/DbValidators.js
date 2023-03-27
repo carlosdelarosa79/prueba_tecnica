@@ -1,3 +1,4 @@
+// me va a realizar una validacion en la DB
 const Role = require('../models/Role');
 const User = require('../models/User');
 

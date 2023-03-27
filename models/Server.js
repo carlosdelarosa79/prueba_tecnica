@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 const { dbConnection } = require("../database/config");
-
+// se crea una clase con constructor
 class Server {
   constructor() {
     this.app = express();

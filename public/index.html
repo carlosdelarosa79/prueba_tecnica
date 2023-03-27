@@ -24,23 +24,23 @@
                     <!-- Email input -->
                     <div class="form-outline mb-4">
                       <input type="email" id="inpEmailSign" class="form-control" />
-                      <label id="lblInput" class="form-label" for="inpEmailSign">Email address</label>
+                      <label id="lblInput" class="form-label" for="inpEmailSign">Correo Electronico</label>
                     </div>
 
                     <!-- Password input -->
                     <div class="form-outline mb-4">
                       <input type="password" id="inpPasswordSign" class="form-control" required />
-                      <label class="form-label" for="inpPasswordSign">Password</label>
+                      <label class="form-label" for="inpPasswordSign">Contraseña</label>
                     </div>
 
 
                     <!-- Submit button -->
-                    <button onclick="onLogin()" type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+                    <button onclick="onLogin()" type="button" class="btn btn-primary btn-block mb-4">Iniciar Sesion</button>
 
                     <!-- Register buttons -->
                     <div class="text-center">
-                      <p>Not a member? <a href="#secRegister">Register</a></p>
-                      <p>or sign up with:</p>
+                      <p>¿No estas resgistrado? <a href="#secRegister">Registrate</a></p>
+                      <p>O resgistrate con :</p>
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         <div id="g_id_onload"
                           data-client_id="1004613855747-kots3nvhksnkorlm0h97q2vjta3ep0eh.apps.googleusercontent.com"
@@ -72,7 +72,7 @@
               <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
-                  <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+                  <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Registrate</p>
 
                   <form class="mx-1 mx-md-4">
 
@@ -87,8 +87,8 @@
                     <div class="d-flex flex-row align-items-center mb-4">
                       <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                       <div class="form-outline flex-fill mb-0">
-                        <input type="text" id="inpName" class="form-control" />
-                        <label class="form-label" for="inpName">Nombre</label>
+                        <input type="text" id="inpName" required class="form-control" />
+                        <label class="form-label" for="inpName">Nombre </label>
                       </div>
                     </div>
 
@@ -136,24 +136,17 @@
                       <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                       <div class="form-outline flex-fill mb-0">
                         <input type="password" id="inpPassword2" class="form-control" />
-                        <label class="form-label" for="inpPassword2">Contraseña</label>
+                        <label class="form-label" for="inpPassword2">Repetir Contraseña</label>
                       </div>
                     </div>
 
-                    <div class="form-check d-flex justify-content-center mb-5">
-                      <input class="form-check-input me-2" type="checkbox" value="" id="cheTerms" />
-                      <label class="form-check-label" for="cheTerms">
-                        I agree all statements in <a href="#!">Terms of service</a>
-                      </label>
-                    </div>
-
                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <button onclick="onRegister()" type="button" class="btn btn-primary btn-lg">Register</button>
+                      <button onclick="onRegister()" type="button" class="btn btn-primary btn-lg">Registrarse</button>
                     </div>
 
                     <div class="text-center">
-                      <p>Ya estás registrado? <a href="#secLogin">Login</a></p>
-                      <p>or sign up with:</p>
+                      <p>¿Ya estás registrado? <a href="#secLogin">Iniciar sesion</a></p>
+                      <p>O resgistrate con :</p>
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         <div id="g_id_onload"
                           data-client_id="1004613855747-kots3nvhksnkorlm0h97q2vjta3ep0eh.apps.googleusercontent.com"
@@ -184,7 +177,7 @@
             <div class="card-body p-md-5">
               <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-                  <button onclick="onSignOut()" type="button" class="btn btn-danger btn-lg pull-right">Sign Out</button>
+                  <button onclick="onSignOut()" type="button" class="btn btn-danger btn-lg pull-right">Cerrar Sesion</button>
                   <h1 id="lblUser"></h1>
                   <p class="text-justify mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

@@ -1,6 +1,6 @@
 
 const { Schema, model } = require('mongoose');
-
+// defino la tabla con tipo de dato y campos obligatorios
 const UserSchema = Schema({
     Identity: {
         type: String,
@@ -47,7 +47,7 @@ const UserSchema = Schema({
 });
 
 
-
+// extraigo la inf que no voy a enviar al front
 UserSchema.methods.toJSON = function() {
     const { __v, Password, _id, ...user  } = this.toObject();
     user.uid = _id;

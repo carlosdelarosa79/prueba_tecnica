@@ -1,3 +1,4 @@
+// generemos un JWT
 const jwt = require("jsonwebtoken");
 
 const generateJWT = (uid = "") => {
